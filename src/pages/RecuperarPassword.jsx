@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Navigate, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import { Input, BtnSubmit } from '../components/index';
 import axios from 'axios';
 import { Alert } from '../components/index';
+import useAuth from '../hooks/useAuth';
 
 const RecuperarPassword = () => {
 
